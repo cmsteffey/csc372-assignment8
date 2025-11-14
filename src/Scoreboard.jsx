@@ -1,6 +1,6 @@
 ﻿export default function Scoreboard({wins, losses, ties, reset}) {
     return (
-        <div class={"scoreboard"}>
+        <div className={"scoreboard"}>
             <p>Wins: {wins}</p>
             <p>Ties: {ties}</p>
             <p>Losses: {losses}</p>
