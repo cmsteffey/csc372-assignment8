@@ -40,6 +40,18 @@ function App() {
         }
       },
       [currentChoice])
+  document.onkeyup =(e) => {
+      console.log(e.key)
+      if(e.key === "r"){
+          document.querySelector("img[alt*=rock]").click();
+      }
+      if(e.key === "p"){
+          document.querySelector("img[alt*=paper]").click();
+      }
+      if(e.key === "s"){
+          document.querySelector("img[alt*=scissors]").click();
+      }
+  }
   return (
     <>
       <p>Player Choice:</p>

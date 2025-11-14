@@ -6,4 +6,6 @@ Rock Paper Scissors in React
 
 To use the application, you must have npm installed. Clone the repository using git, then run npm install && npm run dev in the project folder where you have installed the application code. Then, go to the URL after "Local:" in your console and enjoy the Rock Paper Scissors experience!
 
+For keyboard controls, use R, P, and S to select Rock, Paper, and Scissors
+
 The creation of the same application in React vs the regular javascript implementation really shows how React can be much clearer and more concise and provide live functionality to single-page-applications. I enjoyed using React and putting the skills taught in class to use.
